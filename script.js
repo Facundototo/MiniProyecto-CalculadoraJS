@@ -6,6 +6,10 @@ let valor = '',numeroStr = '',botonAnterior = '';      //Declaracion e inicializ
 let numeros = [],operadores = [];
 let primeroEsNeg = false, resEnviado = false;
 
+//Falta que cuando pase el igual las operaciones anteriores desaparezcan si sigue escribiendo.
+//Y hacer la operacion de resto.
+// Ver si puedo disenar la scrollbar.
+
 botones.forEach(boton => {      //Recorro cada boton con el .forEach() y les aplico a cada uno el evento 'click'.
     boton.addEventListener('click',() => {
 

@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Calculadora</title>
 </head>
 <body>
-    <h2 id="operacion"></h2>
-    <button id="numero">1</button>
-    <button id="numero">2</button>
-    <button id="numero">3</button>
-    <br>
-    <button id="numero">4</button>
-    <button id="numero">5</button>
-    <button id="numero">6</button>
-    <br>
-    <button id="numero">7</button>
-    <button id="numero">8</button>
-    <button id="numero">9</button>
-    <br>
-    <button id="numero">0</button>
-    <button id="operador">+</button>
-    <button id="operador">-</button>
-    <br>
-    <button id="operador">*</button>
-    <button id="operador">/</button>
-    <button id="igual">=</button>
-    <br>
-    <button id="borrar">C</button>
-    <button id="punto">.</button>
+    <header>
+        <h1>Calculadora - Mini Proyecto</h1>
+    </header>
 
+    <div class="contenedor">
+        <div class="divOperacion">
+            <label id="operacion"></label>
+        </div>
+        <div class="grilla">
+            <button id="numero">7</button>
+            <button id="numero">8</button>
+            <button id="numero">9</button>
+            <button id="operador">-</button>
+
+            <button id="numero">4</button>
+            <button id="numero">5</button>
+            <button id="numero">6</button>
+            <button id="operador">+</button>
+
+            <button id="numero">1</button>
+            <button id="numero">2</button>
+            <button id="numero">3</button>
+            <button id="operador">/</button>
+        
+            <button id="numero">0</button>
+            <button id="punto">.</button>
+            <button id="igual">=</button>
+            <button id="operador">*</button>
+
+            <button id="borrar">C</button>
+            <button id="operador">%</button>
+            
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

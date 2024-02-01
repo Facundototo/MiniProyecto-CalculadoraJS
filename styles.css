@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(57, 65, 90);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(53, 61, 80);
+    margin-bottom: auto;
+    align-items: center;
+}
+
+header h1{
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgba(255, 228, 196, 0.445);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(74, 74, 139);
+    background-color: rgb(57, 68, 105);
+    border-radius: 30px;
+    width: 300px;
+    height: 450px;
+    margin-bottom: auto;
+}
+
+.grilla{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 6px;
+}
+
+.divOperacion{
+    display: flex;
+    background-color: rgba(59, 81, 127, 0.97);
+    border-radius: 20px;
+    margin: 20px;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 55px;
+    overflow-x: auto;
+}
+
+.divOperacion label{
+    margin: auto;
+    font-size: 25px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    height: 60px;
+    width: 60px;
+    font-size: 32px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    border-radius: 20px;
+    border-color: rgb(208, 185, 156);
+    background-color: rgba(72, 85, 113, 0.97);
+}
+button:hover{
+    background-color: rgba(88, 105, 140, 0.97)
+}
+
+#borrar {
+    grid-column: 1/4;
+    width: 185px;
+}
