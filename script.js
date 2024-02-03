@@ -1,5 +1,5 @@
-
-let botones = [...document.querySelectorAll('button')];      //Todos los botones del html almacenados en este array.
+//Todos los botones del html almacenados en este array.
+let botones = [...document.querySelectorAll('button')];     // [...] lo que hace es transformar el NodeList que te retorna .querySelectorAll() en un array.
 let labelOperacion = document.getElementById('operacion');      //El label con la operacion.
 
 let valor = '',numeroStr = '',botonAnterior = '';      //Declaracion e inicializacion de variables.

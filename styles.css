@@ -22,8 +22,8 @@ header{
 header h1{
     margin-left: 20px;
     font-size: 20px;
-    color: rgba(255, 228, 196, 0.445);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    color: rgba(250, 234, 216, 0.561);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif';
 }
 
 .contenedor{
@@ -37,6 +37,7 @@ header h1{
     width: 300px;
     height: 450px;
     margin-bottom: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0.5, 0.5);
 }
 
 .grilla{
@@ -56,6 +57,7 @@ header h1{
     max-width: 250px;
     min-height: 55px;
     overflow-x: auto;
+    box-shadow: 5px 5px 5px rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 .divOperacion label{
@@ -76,7 +78,8 @@ button{
     background-color: rgba(72, 85, 113, 0.97);
 }
 button:hover{
-    background-color: rgba(88, 105, 140, 0.97)
+    background-color: rgba(88, 105, 140, 0.97);
+    box-shadow: 3px 3px 3px rgba(0.5, 0.5, 0.5, 0.5);
 }
 
 .borrar {

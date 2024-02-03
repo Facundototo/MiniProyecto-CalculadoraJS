@@ -11,9 +11,9 @@
 * [x] Permitir **numeros negativos**. Ej => -10+1.
 * [x] Que las cuentas despues de clickear el **'='** sigan si el usuario desea.
 * [x] Permitir **numeros flotantes** en las operaciones.
-* [x] Hacer el diseño estetico de la pagina.
-* [x] Que se puedan escribir las operaciones con el teclado.
-* [x] Añadir el operador resto (%).
+* [x] Hacer el **diseño estetico** de la pagina.
+* [x] Que se puedan escribir las **operaciones con el teclado**.
+* [x] Añadir el **operador resto** (%).
 ___
 
 #### --- Errores que siento que cometí en el proyecto ---
@@ -29,6 +29,11 @@ ___
 ### --- Commits --- 
 
 > Del actual al antiguo
+
+| **'fin del proyecto'** - Fecha 3/02 |
+
+* Añadi un comentario que me faltaba.
+* Le añadi sombras a la calculadora.
 
 | **'resto, evento teclado y ajustes'** - Fecha 2/02 |
 
