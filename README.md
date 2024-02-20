@@ -1,6 +1,7 @@
 ## Mini-Proyecto - Calculadora - 2024
 
-> [!NOTE] > _El codigo esta todo comentado de explicaciones (solo script.js)._
+> [!NOTE]
+> _El codigo esta todo comentado de explicaciones (solo script.js)._
 
 > **_Primer practica en JavaScript_**
 
